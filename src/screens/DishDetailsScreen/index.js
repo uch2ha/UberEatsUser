@@ -45,8 +45,8 @@ export default function DishDetailsScreen() {
          </View>
          <View style={styles.btn}>
             <Text style={styles.btnText}>
-               Add {quantity} {quantity > 1 ? "items" : "item"} to basket ($
-               {getTotal()})
+               Add {quantity} {quantity > 1 ? "items" : "item"} to basket
+               &#8226; ${getTotal()}
             </Text>
          </View>
       </View>
